@@ -15,8 +15,7 @@ Now with a third bank (BankC), I've stripped down to only using Bash and Python.
 
 ## Requirements
 I am currently running (on this old box):
-* Distributor ID:	LinuxMint
-* Description:	Linux Mint 18 Sarah
+* Linux Mint 18 Sarah
 * 4.4.0-21-generic
 * Bash 4.3.48(1)-release
 * xdotool version 3.20150503.1
