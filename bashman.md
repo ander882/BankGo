@@ -43,7 +43,7 @@ Easy right?  Lest break it down.  BashManager opens the config file and starts r
 * The start process is the first process it finds so it is the first to go.  The start process is ran on the first two tasks and then we don't see it again.  it completes.  Just 2 bits of initalization and it is done.
 * BankM is the next process.  Goody a bank.  Lets run this process all the way through.  The first two tasks don't ask for it so they are not run.  But nearly all the rest of the tasks are.  So each each task (program) is ran that has BankM in order.  A couple at the end don't ask for banks (later).
 * The next 3 banks are ran in order the same way.  One by one.
-* Finally the rept process is process is ran at 05-l-start (local init start) and then we don't see it again until the very end where some final reporting is done.
+* Finally the rept process is ran at 05-l-start (local init start) and then we don't see it again until the very end where some final reporting is done.
 * Read this a second time to understand it better.
 
 Again from a different perspective.
@@ -55,3 +55,12 @@ Again from a different perspective.
 BankA=BankA
 * The left hand side is the process name.  Easy
 * The right hand side is for any other paramiters that this process at this task may need.  I didn't need any extra paramiters at any time.  So I just suplied the name of the process (bank).  It does comes in handy later.
+
+# A little about naming schemes
+* tasks that start with a single digit (02, 03, 05) are initalization programs
+* Teens (10-19) are for web scraping
+* Twenties (20-29) are for processing
+* Thirties are for database updates
+* etc etc.  But the numbers get bigger as the program progresses.
+* If there were a 99 process, it would be the final end all.
+
