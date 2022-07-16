@@ -9,7 +9,7 @@ I am currently looking at another task runner.  But I'd also like to know if I c
 # Directory Structure
 * config.d/bankgo.txt - Where to store the runner script (BashMagager needed)
 * task.d/ - Where to store the tasks to run (BashMagager needed)
-* * 3 are shown below (02-g-start.sh, 03-open.sh, and 05-l-start.sh)
+* * 3 tasks are shown below (02-g-start.sh, 03-open.sh, and 05-l-start.sh)
 * db/ - Where I store my database files (Mostly .tsv)
 * db/backup - Backups of the database files
 * process/ - where I store intermediate processing files
