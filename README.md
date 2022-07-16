@@ -13,6 +13,15 @@ Now my software uses node (Still works with BankB), python and bash.  Time to ma
 ## The third version
 Now with a third bank (BankC), I've stripped down to only using Bash and Python.  I can use any browser I wish.  Of course I will have to edit my web scraping code to work with a different browser, but the changes should be minimal.  So now I have far less requirements.  Better ease.  And now to show everyone how.
 
+## Requirements
+I am currently running (on this old box):
+* Distributor ID:	LinuxMint
+* Description:	Linux Mint 18 Sarah
+* 4.4.0-21-generic
+* Bash 4.3.48(1)-release
+* xdotool version 3.20150503.1
+* xsel version 1.2.0 by Conrad Parker <conrad@vergenet.net>
+* https://github.com/lingtalfi/bashmanager
 
 
 . Step One
