@@ -1,0 +1,97 @@
+Getting to some code!  
+
+In ... I specified the directory structure, the config file and how to read it and some nomenclature.  Here I start with the first three programs (tasks).  
+
+```
+02-g-start:
+start=start
+
+03-open:
+start=start
+
+05-l-start:
+meme=meme
+imcu=imcu
+kemba=kemba
+hunt=hunt
+rept=rept
+```
+
+As these are single digit programs, they are all startup and initalization scripts.  First off is 
+
+# 02-g-start
+```
+#!/bin/bash
+
+#####
+# 
+# This does some global startup work
+#
+# Only call this once for all process!
+#
+#####
+
+taskString="02 global start"
+
+startTask "$taskString"
+
+
+
+#####
+# Instalation Stuff.  code that should only work once
+# and not be destructive
+#####
+
+#Make these two directories if needed.  
+#this should only happen THE VERY FIRST TIME this script is ran
+# -p option is non desctructive.  Stuff in the db will not be destroyed.
+mkdir -p ${CONFIG[_HOME]}/process
+mkdir -p ${CONFIG[_HOME]}/db/backup
+
+
+
+
+#####
+# Startup stuff.
+# This will be ran every time the whole process' are started
+#####
+
+# Go ahead and remove all files in the HOME/process directory.
+# Lets start fresh
+
+rm -rf ${CONFIG[_HOME]}/process/*
+
+
+
+endTask "$taskScring"
+```
+
+Lets walk through this...  startTask displays a line in the console stating that it is starting.  Great.  
+Then we make our non BashManager directories.  They are already there, but just in case..  Also note
+the CONFIG variable that BashManager gives us.  We will be using a lot of varaibles from BashManager.
+
+Then we remove everything in the process directory.  The process directory stores all of the intermediate
+work that we do while running through the program.  Hey.  something broke?  Check the process directory to
+see what happened...  Error messages also go into the process directory.
+
+a quick endTask to display in the console, and we are done with our one time global initalization.
+
+# 03-open:
+This is new for the third version of this program.  I'm using Chrome and my chrome throws errors a lot.  
+And those errors go into my console output.  Quite a nasty site.  Well I'm throwing keys to get tasks done,
+so why not throw a couple of keys to open a new terminal shell and open chrome from that shell!  Now all
+Chrome errors go into this new terminal and all is good.  Take a look at the code.  Our first use of xdotool
+* startTask to show nice messages on the console
+* throw the keys ctrl+alt+t to open up a new terminal (linux desktop keybinding)
+* wait for it to open
+* type in 'chromium-browser'
+* wiat for Chrome to open
+* * if it opens endTask and continue
+* * if not, stopProcess to stop everything
+
+# 05-l-start
+Within start/endProcess I just setup some enviroment variables for thedb and /process directories.  Hmm.
+There is nothing specific for each of the banks.  So maybe they should be removed?
+
+
+And that is it for initalizations!  On to some web scraping!
