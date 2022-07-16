@@ -30,7 +30,7 @@ rept=rept
 
 ...
 ```
-# A note about the config file
+# How to read the config file
 The config file is setup as the following:
 * Tasks (Colon lines) are the tasks (programs) that each process CAN go through
 * * Not all process' go through all tasks
@@ -48,3 +48,8 @@ Again from a different perspective.
 * 02-g-start: is a global start.  It only needs to run once to do initial setup.  This is why the start process is the only one to go through it.  And since it is at the top, it runs first.
 * 03-open: only needs to happen once (described in the next section) and has a different task.  So the start process gets it.  And it runs second.
 * 05-l-start: initalizes variables for each of the banks to run smoothly.  So BankM will go first and then start running all tasks below that contain BankM.
+
+# About the process line
+BankA=BankA
+* The left hand side is the process name.  Easy
+* The right hand side is for any other paramiters that this process at this task may need.  I didn't need any extra paramiters at any time.  So I just suplied the name of the process (bank).  It does comes in handy later.
