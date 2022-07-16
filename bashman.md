@@ -13,8 +13,8 @@ My googlefu was not not all that good at the time (2018?) and I didn't know to s
 * process/ - where I store intermediate processing files
 
 # The config file
-config.d/bankgo.txt looks like this:
-'''
+The first three sections of the config.d/bankgo.txt looks like this:
+```
 02-g-start:
 start=start
 
@@ -27,4 +27,4 @@ BankB=BankB
 BankA=BankA
 BankC=BankC
 rept=rept
-'''
+```
