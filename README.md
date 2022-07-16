@@ -25,5 +25,5 @@ I am currently running (on this old box):
 
 And now the show!
 * Step One - [A task runner](bashman.md)
-* [Steps 00 - 09](one.md)
-* * asdf
+* [Steps 00 - 09](One.md)
+* [Steps 10 - 19](Ten.md)
