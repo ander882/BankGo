@@ -4,6 +4,7 @@ The code that runs it all...
 
 
 My googlefu was not not all that good at the time (2018?) and I didn't know to search for 'task runner'...  But alas, I found Bashmanager and I latched on.
+I am currently looking at another task runner.  But I'd also like to know if I can have one config file call another config file.  Not really needed as you can see how I seperate things out here.
 
 # Directory Structure
 * config.d/bankgo.txt - Where to store the runner script (BashMagager needed)
