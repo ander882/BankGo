@@ -24,5 +24,7 @@ I am currently running (on this old box):
 * https://github.com/lingtalfi/bashmanager
 
 
-. Step One
-.. A task runner
+* Step One
+** [A task runner](bashman.md)
+** [Steps 00 - 09](one.md)
+** asdf
