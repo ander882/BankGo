@@ -99,7 +99,7 @@ for that one bank....
 
 And that is it!  We just scraped all of our banks!  WooHoo.  
 
-# 18-(BankA|BankB|BankC|BankM).sh
+# 19-(BankA|BankB|BankC|BankM).sh
 This is actually a cheat script.  This should be a level 20 (processing) script, but I put it here to remove
 about 95% of the fluff in the transaction web page (header/footer info) and just leave the transaction details only (uh, mostly).  These are a fun (grep | sed | cut | tr | tac ) script.  
 
