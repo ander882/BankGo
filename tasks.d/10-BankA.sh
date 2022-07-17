@@ -8,7 +8,8 @@ startTask "$taskString"
 
 masterpid=$(xdotool getwindowfocus)
 
-
+# Chrome should now be open
+# Check to make sure
 winname=$(xdotool getwindowname $(xdotool getwindowfocus))
 if [[ "$winname" != *"Chromium"* ]]; then
   log "No web browser opened"
@@ -18,17 +19,23 @@ fi
 
 #New Window and get login page
 
+# Open a new tab
 xdotool key ctrl+t
 sleep 2
 
 
+# Load up our bank web page
+# Note: It is good to find a logon ONLY page.  
+# Don't go to the main page with all of the adds, flash, and extra stuff
+# Things load faster and easier.
 xdotool type 'https://BankA.org/'
 #xdotool type 'https://BankA.org/idp/484D637/signin'
 #xdotool type 'vlc'
 xdotool key Return
 sleep 2
 
-
+# Check for the title of the web page to load.
+# This is a good indication that the full page has loaded.  (?)
 for i in {1..6}
 do
   sleep 2
@@ -44,6 +51,7 @@ do
 done
 
 
+# Just check again.
 winname=$(xdotool getwindowname $(xdotool getwindowfocus))
 if [[ "$winname" != *"BankA Credit"* ]]; then
   log "Web page not opened"
@@ -52,6 +60,7 @@ if [[ "$winname" != *"BankA Credit"* ]]; then
 fi
 
 
+# Type in the user name and password
 xdotool type 'BankA_UserName'
 xdotool key Tab
 xdotool type 'BankA_Password'
