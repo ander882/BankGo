@@ -101,10 +101,11 @@ And that is it!  We just scraped all of our banks!  WooHoo.
 
 # 19-(BankA|BankB|BankC|BankM).sh
 This is actually a cheat script.  This should be a level 20 (processing) script, but I put it here to remove
-about 95% of the fluff in the transaction web page (header/footer info) and just leave the transaction details only (uh, mostly).  These are a fun (grep | sed | cut | tr | tac ) script.  
+about 95% of the fluff in the transaction web page (header/footer info) and just leave the transaction details only (uh, mostly).  And since 3 banks have transaction detail in 14-BankX.out and one has it in 16-BankC.out, we can also push those to a consistant 19-BankX.out.
+These scripts are fun (grep | sed | cut | tr | tac ) scripts.  Check them out (then leave them).  
 
-Whew!  This is what you came for!  But now we have web scraped data.  Hard to (human) read.  Lest get to the 20 level
-of this program and start processing this stuff.
+Whew!  This is what you came for!  Now we have web scraped data.  Hard to (human) read.  
+Lets get to the 20 level of this program and start processing this stuff.
 
 
 ## notes to myself
