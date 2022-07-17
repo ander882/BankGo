@@ -105,3 +105,10 @@ about 95% of the fluff in the transaction web page (header/footer info) and just
 
 Whew!  This is what you came for!  But now we have web scraped data.  Hard to (human) read.  Lest get to the 20 level
 of this program and start processing this stuff.
+
+
+## notes to myself
+Now that I have re-written the web scraping code (so I don't give out bank info), I have found that
+I am doing the same (about 5) things over and over.  Time to get those things moved out into a library
+and simply use those library blocks.  Cleaner and more importantly more consistent code.
+
