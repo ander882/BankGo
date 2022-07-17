@@ -6,7 +6,7 @@ luckily, each of the banks logically work the same.
 * 10 open a new tab and get to the logon page and logon
 * 12 wait for the home page.  Check it and get to the page with chash flow details
 * 14 wait for the details (all transactions).  Get them.
-* 16 one bank doesn't show the full details.  But they allow 'view page source'.  Get it
+* 16 one bank doesn't show the full transaction details.  But they allow 'view page source'.  Get it
 * 18 logoff and close tab
 
 ## Here is the next part of the config file:
