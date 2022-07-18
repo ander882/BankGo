@@ -1,4 +1,3 @@
-This file is NOT in the directory.  Only here for you.
 
 Some notes
 
@@ -7,3 +6,4 @@ Some notes
 * This is here just to show what the process directory looks like after a run
 * This directory is deleted out at the start of every run.
 * Not all banks are show (right now).  Maybe I'll add more later?
+* This readme file is NOT in the directory.  Only here for you.
