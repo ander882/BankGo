@@ -6,8 +6,6 @@ taskString="10 Bank Login"
 startTask "$taskString"
 
 
-masterpid=$(xdotool getwindowfocus)
-
 # Chrome should now be open
 # Check to make sure
 winname=$(xdotool getwindowname $(xdotool getwindowfocus))
