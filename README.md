@@ -21,3 +21,5 @@ And now the show!
 * [Steps 00 - 09](02.md)
 * [Steps 10 - 19](10.md)
 * [Steps 20 - 29](20.md)
+* [Steps 30 - 39](30.md)
+* [Steps 90 - 99](90.md)
