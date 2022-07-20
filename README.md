@@ -11,6 +11,7 @@ I am currently running (on this old box):
 * Linux Mint 18 Sarah
 * 4.4.0-21-generic
 * Bash 4.3.48(1)-release
+* coreutils	8.25-2ubuntu3~16.04
 * xdotool version 3.20150503.1
 * xsel version 1.2.0 by Conrad Parker <conrad@vergenet.net>
 * https://github.com/lingtalfi/bashmanager
