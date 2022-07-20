@@ -57,6 +57,15 @@ BankA=BankA
 * The left hand side is the process name.  Easy
 * The right hand side is for any other paramiters that this process at this task may need.  I didn't need any extra paramiters at any time.  So I just suplied the name of the process (bank).  It does comes in handy later.
 
+Here is the meat of the 20-to-tsv.sh script
+```
+python3 ${CONFIG[_HOME]}/tasks.d/20-${VALUE}.py \
+	 < ${CONFIG[processDir]}/19-${VALUE}.out \
+	 > ${CONFIG[processDir]}/20-${VALUE}.tsv
+```
+So the script just runs 4 different python script depending on the bank being ran.  It uses ${VALUE} which is BankA in this case.  
+AND the value is also used to put the output and error stuff into files with the bank name in it!  Neat.
+
 # A little about naming schemes
 * tasks that start with a single digit (02, 03, 05) are initalization programs
 * Teens (10-19) are for web scraping
