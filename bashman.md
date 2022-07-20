@@ -3,8 +3,9 @@ The code that runs it all...
 [BashManager](https://github.com/lingtalfi/bashmanager)
 
 
-My googlefu was not not all that good at the time (2018?) and I didn't know to search for 'task runner'...  But alas, I found Bashmanager and I latched on.
-I am currently looking at another task runner.  But I'd also like to know if I can have one config file call another config file.  Not really needed as you can see how I seperate things out here.
+My googlefu was not not all that good at the time (2018?) and I didn't know to search for 'task runner'...  
+But alas, I found Bashmanager and I latched on.
+I'd also like to know if I can have one config file call another config file.  Not really needed as you can see how I seperate things out here.
 
 # Directory Structure
 * config.d/bankgo.txt - Where to store the runner script (BashMagager needed)
@@ -63,4 +64,3 @@ BankA=BankA
 * Thirties are for database updates
 * etc etc.  But the numbers get bigger as the program progresses.
 * If there were a 99 process, it would be the final end all.
-
