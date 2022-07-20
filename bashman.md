@@ -37,7 +37,7 @@ rept=rept
 The config file is setup as the following:
 * Tasks (Colon lines) are the tasks (programs) that each process CAN go through
 * * Not all process' go through all tasks
-* Processes.  There are currently 6 processes (start, rept and the 4 banks)
+* Processes.  There are currently 7 processes (start, rept, the 4 banks, and end)
 * * Processes will not do all tasks.  
 
 Easy right?  Lest break it down.  BashManager opens the config file and starts reading.  
