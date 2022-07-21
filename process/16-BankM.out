@@ -1,0 +1,58 @@
+bash manager(v): [1m---- TASK: 16 Bank Source ------------[0m
+
+Line wrap￼
+
+
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+</head>
+        <div data-account-details-table-rows-container="">
+                                <div class="c-g-account-details-table__row" data-account-details-primary-history-row="" data-amount="-5.43" data-balance="4.14" data-date="07/19/2022 12:00:00 AM" data-description="MCDONALD&#39;S F15566" data-original-description="PURCHASE            MCDONALD&#39;S F" data-tran-type="Debit Card" data-sequence-number="000000001" data-tag="" data-account-id="88565734" data-account-number="02402093066" data-image-id="057018475" data-image-eligible="False" data-research-link="/Retail/CustomerServices/CaseManagement/ResearchTransaction?Index=88565734&amp;Date=07/19/2022&amp;Amt=-5.43&amp;TType=Debit Card&amp;Description=dCV3CIeUbpMUWolPMWrU%252fGQO0g1jeuBVJIDqsmGY3MDFF8q4uJPSTNbDU1EG8OqF&amp;PayeeName=A1XCZBIxHLLG%252bUIEEZ6K39WoeHQHhEH1KqutXMDS4tw%253d" data-transaction-code="06017" data-overdraft-notice="False" data-account-name-acct="" tabindex="0">
+                        <div class="c-g-account-details-table__td u-g-flex-justify-end@medium"tabindex="0">
+                            07/19/2022
+                        </div>
+                        <div class="c-g-account-details-table__td u-g-fw-bold u-g-fw-normal@medium  c-g-account-details-table__td-description u-g-wb-break-word"tabindex="0">
+                            MCDONALD&#39;S F15566
+                        </div>
+                        <div class="c-g-account-details-table__td"tabindex="0">
+                                                        Debit Card
+                        </div>
+                        <div class="c-g-account-details-table__td u-g-flex-justify-end@medium" tabindex="0">
+                            <div class="c-g-account-details-table__td-amount ">
+                                -$5.43
+                            </div>
+                        </div>
+                        <div class="c-g-account-details-table__td  u-g-pad-right-s u-g-mar-top-xs u-g-pad-right-m@medium u-g-mar-top-0@medium" tabindex="0">
+                            <div class="c-g-account-details-table__balance-text u-g-width-100">
+                                <span class="u-g-disp-none@medium">Account Balance:&nbsp;</span>
+                                <span class="u-g-disp-flex@medium u-g-flex-justify-end@medium">$4.14</span>
+                            </div>
+                            <span class="u-g-a11y-hide-text c-g-account-details-table__ada">Press enter to view more details on this transaction</span>
+                        </div>
+                    </div>
+                    <div class="c-g-account-details-table__row" data-account-details-primary-history-row="" data-amount="-23.64" data-balance="9.57" data-date="07/18/2022 12:00:00 AM" data-description="KROGER #9 8150 ROC" data-original-description="PURCHASE            KROGER #9 81&lt;br /&gt;XXXXXXXXXXXX2436" data-tran-type="ATM/POS 90550" data-sequence-number="000000001" data-tag="" data-account-id="88565734" data-account-number="02402093066" data-image-id="843194696" data-image-eligible="False" data-research-link="/Retail/CustomerServices/CaseManagement/ResearchTransaction?Index=88565734&amp;Date=07/18/2022&amp;Amt=-23.64&amp;TType=ATM/POS&amp;Description=dCV3CIeUbpMUWolPMWrU%252fI1biLSsODK3v0l%252fJyghs7DI3eB79fE2yS5wgfWIQg%252bkUgozTestxxXdd%252bDxxAXd5%252bxhZpC1m1I8Y1%252fEHBoj6aFeC2Q1Ax3C%252fpv%252f61zpJHRb&amp;PayeeName=p55%252bVSMKz2KaazGn11CLpxjWAalLoVU8xZ4OQQ2LMVM%253d" data-transaction-code="01105" data-overdraft-notice="False" data-account-name-acct="" tabindex="0">
+                        <div class="c-g-account-details-table__td u-g-flex-justify-end@medium"tabindex="0">
+                            07/18/2022
+                        </div>
+                        <div class="c-g-account-details-table__td u-g-fw-bold u-g-fw-normal@medium  c-g-account-details-table__td-description u-g-wb-break-word"tabindex="0">
+                            KROGER #9 8150 ROC
+                        </div>
+                        <div class="c-g-account-details-table__td"tabindex="0">
+                                                        ATM/POS 90550
+                        </div>
+                        <div class="c-g-account-details-table__td u-g-flex-justify-end@medium" tabindex="0">
+                            <div class="c-g-account-details-table__td-amount ">
+                                -$23.64
+                            </div>
+                        </div>
+                        <div class="c-g-account-details-table__td  u-g-pad-right-s u-g-mar-top-xs u-g-pad-right-m@medium u-g-mar-top-0@medium" tabindex="0">
+                            <div class="c-g-account-details-table__balance-text u-g-width-100">
+                                <span class="u-g-disp-none@medium">Account Balance:&nbsp;</span>
+                                <span class="u-g-disp-flex@medium u-g-flex-justify-end@medium">$9.57</span>
+                            </div>
+                            <span class="u-g-a11y-hide-text c-g-account-details-table__ada">Press enter to view more details on this transaction</span>
+                        </div>
+                    </div>
+</html>
+bash manager(v): [1m--------------------------------------[0m
