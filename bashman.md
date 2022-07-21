@@ -66,6 +66,16 @@ python3 ${CONFIG[_HOME]}/tasks.d/20-${VALUE}.py \
 So the script just runs 4 different python script depending on the bank being ran.  It uses ${VALUE} which is BankA in this case.  
 AND the value is also used to put the output and error stuff into files with the bank name in it!  Neat.
 
+# To run
+To run this thing, I get into the root directory and type './go' which executes the following bash script
+```
+#!/bin/bash
+
+bashman -h . -v
+```
+Which means, the home directory is here and run this in verbose.
+
+
 # A little about naming schemes
 * tasks that start with a single digit (02, 03, 05) are initalization programs
 * Teens (10-19) are for web scraping
