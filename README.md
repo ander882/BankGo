@@ -17,7 +17,11 @@ I am currently running (on this old box):
 * https://github.com/lingtalfi/bashmanager
 
 
-And now the show!
+## TLDR
+Please look at this [TLDR](tldr.md) for your compressed answer.
+
+
+## And now the show!
 * Step One - [A task runner](bashman.md)
 * [Steps 00 - 09](02.md)
 * [Steps 10 - 19](10.md)
