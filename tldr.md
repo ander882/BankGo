@@ -2,8 +2,11 @@
 
 But here it is.
 
+
 ## I use Bashmanager as a task runner.  
-Break everything into small parts.  In the ./config.d/bankgo.txt file you will see the entire program in all of it's little parts.
+* Break everything into small parts.  Run them in a pipeline.
+* In the ./config.d/bankgo.txt file you will see the entire program in all of it's little parts.
+
 
 ## I use a simple program numbering system
 Each of the programs are numbered 00-99.  
