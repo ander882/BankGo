@@ -5,7 +5,7 @@ But here it is.
 ## I use Bashmanager as a task runner.  
 Break everything into small parts.  In the ./config.d/bankgo.txt file you will see the entire program in all of it's little parts.
 
-## I use a numbering system
+## I use a simple program numbering system
 Each of the programs are numbered 00-99.  
 * 0x are Initalization scripts.  Ran before the 1x scripts.
 * 1x are the web scraping scripts
@@ -21,14 +21,7 @@ Each of the programs are numbered 00-99.
 * * 10 logon
 * * 12 bank home screen
 * * 14 bank transaction detail
-* * 18 log ogg
-
-
-## everything else
-Pages with numbers less than 1x are for initalization.  After that:
-* 2x are for web page processing
-* 3x database backup and import new info
-* 8x reports
-* 9X shutdown
+* * 18 log off
+* * all 1x scripts take a copy of the screen and outputs a 1x-Bank?.out file
 
 done.
