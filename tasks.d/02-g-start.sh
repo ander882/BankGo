@@ -13,6 +13,14 @@ taskString="02 global start"
 startTask "$taskString"
 
 
+
+# Include a library
+# todo - should make an 'include' directory for these?
+source ${CONFIG[_HOME]}/tasks.d/10-scrape-lib.sh
+source ${CONFIG[_HOME]}/tasks.d/env/banks.env
+
+
+
 #####
 # Instalation Stuff.  code that should only work once
 # and not be destructive
@@ -25,15 +33,6 @@ mkdir -p ${CONFIG[_HOME]}/process
 mkdir -p ${CONFIG[_HOME]}/db/backup
 
 
-#####
-# Startup stuff.
-# This will be ran every time the whole process' are started
-#####
-
-# Go ahead and remove all files in the HOME/process directory.
-# Lets start fresh
-
-rm -rf ${CONFIG[_HOME]}/process/*
-
 
 endTask "$taskScring"
+
