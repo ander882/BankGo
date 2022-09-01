@@ -1,7 +1,7 @@
 # BankGo
 A Bank web scraper mostly in bash (with a little python) and more.  Keep track of your expendatures!  Know where your money is going!  Grow more grey hairs!
 
-This is my third version of my bank scraper!  with a [2022-09](200209.md) update.  And I need to share this with the world.  There are people that want to do the exact same things I'm doing, so...  MAKE IT PUBLIC.
+This is my third version of my bank scraper!  with a [2022-09](202209.md) update.  And I need to share this with the world.  There are people that want to do the exact same things I'm doing, so...  MAKE IT PUBLIC.
 
 
 If you wish to read, here is the [Preferace](pre.md)
