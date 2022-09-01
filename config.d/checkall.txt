@@ -1,0 +1,17 @@
+# is this a comment
+
+02-g-start:
+start=start
+
+05-l-start:
+bankd=bankd
+bankb=bankb
+banka=banka
+bankc=bankc
+rept=rept
+
+check-uniq:
+bankd=bankd
+bankb=bankb
+banka=banka
+bankc=bankc
