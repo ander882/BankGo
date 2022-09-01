@@ -24,6 +24,7 @@ Each of the programs are numbered 00-99.
 * * 10 logon
 * * 12 bank home screen
 * * 14 bank transaction detail
+* * 16 Page source of 14.  One bank allows/uses it.  
 * * 18 log off
 * * all 1x scripts take a copy of the screen and outputs a 1x-Bank?.out file
 
