@@ -18,8 +18,20 @@ BROWSER_sleep=2
 BROWSER_sleep_half=1
 BROWSER_sleep_quarter=.5
 
-
 BROWSER_wait_times=6
+
+
+
+#########################################
+# Return error codes
+#########################################
+# 1 - The browser is no longer active
+# 2 - The page title is not expeceted
+# 3 - Text on the page does not have desired text
+# 4 - We are not in a textbox.  For inputing usernames, etc.
+#########################################
+
+
 
 
 
@@ -33,8 +45,8 @@ BROWSER_wait_times=6
 #########################################
 
 BROWSER_check () {
-  winname=$(xdotool getwindowname $(xdotool getwindowfocus))
-  if [[ "$winname" != *"$BROWSER_NAME"* ]]; then
+  BROWSER_winname=$(xdotool getwindowname $(xdotool getwindowfocus))
+  if [[ "$BROWSER_winname" != *"$BROWSER_NAME"* ]]; then
     return 1  # bail
   fi
 }
@@ -61,13 +73,14 @@ BROWSER_check_title()
      if [ 0 -ne $? ]; then return $?; fi
 
 
-     #$winname is set in BROWSER_check
-     if [[ "$winname" == *"$1"* ]]; then
+     #$BROWSER_winname is set in BROWSER_check
+     #echo "loop check title"
+     if [[ "$BROWSER_winname" == *"$1"* ]]; then
        sleep $BROWSER_sleep
-       #echo "yeah!"
+       #echo "loop check title - yeah!"
        return 0
-       # ok the title is here but the web page may not be fully loaded
-       # yet.
+       # ok the title is here but the web 
+       # page may not be fully loaded yet.
      fi
 
    i=$((i+1))
@@ -103,9 +116,10 @@ BROWSER_check_page () {
 
      scrape=$(xsel)
 
+     #echo "loop check page"
      if [[ "$scrape" == *"$1"* ]]; then
        sleep $BROWSER_sleep_half
-       #echo "yeah!"
+       #echo "loop check page - yeah!"
        return 0
      fi
 
@@ -147,9 +161,10 @@ BROWSER_text_focus () {
      #echo "$(xsel)" >&1
 
 
+     #echo "loop text focus"
      if [[ "$scrape" == "=" ]]; then
        sleep $BROWSER_sleep_quarter
-       #echo "yeah!"
+       #echo "loop text focus - yeah!"
        return 0
      fi
 
@@ -305,7 +320,7 @@ BROWSER_tab_new()
    #First check that the browser has focus.  If not bail!
    BROWSER_check
    if [ 0 -ne $? ]; then return $?; fi
-   scrape="$winname"
+   local scrape="$BROWSER_winname"
 
    xdotool key ctrl+t
    sleep $BROWSER_sleep_half
@@ -347,9 +362,9 @@ BROWSER_page_wait ()
        BROWSER_check
 
        #echo "loop page_wait"
-       if [[ "$1" != "$winname" ]]; then
-          #echo "Yeah!"
-          return
+       if [[ "$1" != "$BROWSER_winname" ]]; then
+          #echo "loop page_wait - Yeah!"
+          return 0
        fi
 
    i=$((i+1))
