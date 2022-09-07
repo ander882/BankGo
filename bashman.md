@@ -18,12 +18,19 @@ I'd also like to know if I can have one config file call another config file.  N
 # The config file
 The first three sections of the config.d/bankgo.txt looks like this:
 ```
+# Non Descructive init
 02-g-start:
 start=start
 
+# Descructive init
+025-g-start:
+start=start
+
+# Open the web browser
 03-open:
 start=start
 
+# Bank Specific init
 05-l-start:
 BankM=BankM
 BankB=BankB
