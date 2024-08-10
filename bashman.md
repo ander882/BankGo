@@ -8,6 +8,7 @@ But alas, I found Bashmanager and I latched on.
 I'd also like to know if I can have one config file call another config file.  Not really needed as you can see how I seperate things out here.
 
 # Directory Structure
+* bashman - Holds the actual bashmanager code
 * config.d/bankgo.txt - Where to store the runner script (BashMagager needed)
 * task.d/ - Where to store the tasks to run (BashMagager needed)
 * * 3 tasks are shown below (02-g-start.sh, 03-open.sh, and 05-l-start.sh)
