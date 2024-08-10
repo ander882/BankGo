@@ -1,0 +1,5 @@
+https://github.com/lingtalfi/bashmanager
+
+bashman -h . -p kemba -t 05-l-start -t 25-beancount
+
+bashman -h . -p start -p hunt
