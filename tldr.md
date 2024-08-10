@@ -28,4 +28,13 @@ Each of the programs are numbered 00-99.
 * * 18 log off
 * * all 1x scripts take a copy of the screen and outputs a 1x-Bank?.out file
 
+### 10-scrape-lib.sh
+uses xdotool to throw kesy to get the following?
+* library on how to see the web page
+* Ctri-a to select all the page
+* Ctrl-v to copy it all into clipboard
+* xsel to get the clipboard into a variable or save to file
+* Ctrl-l to get into address bar
+* a couple of other keys.
+
 done.
