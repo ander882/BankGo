@@ -29,12 +29,14 @@ Each of the programs are numbered 00-99.
 * * all 1x scripts take a copy of the screen and outputs a 1x-Bank?.out file
 
 ### 10-scrape-lib.sh
-uses xdotool to throw kesy to get the following?
-* library on how to see the web page
+the main library on how to see the web page.  Uses xdotool to throw keys into Chrome to get the following:
 * Ctri-a to select all the page
-* Ctrl-v to copy it all into clipboard
+* Ctrl-c to copy it all into clipboard
+* Ctrl-v to coppy the clipboard to Chrome
 * xsel to get the clipboard into a variable or save to file
 * Ctrl-l to get into address bar
 * a couple of other keys.
+* This is how we control Chrome.  Throw keystrokes at it and read from the clipboard
+* * Basic and works.
 
 done.
