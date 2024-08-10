@@ -22,7 +22,7 @@ I have moved to a new system.  Retired the old
 * Linux 6.8.0-40-Generic
 * Bash 5.2.21
 * xdotool - Works great with Chrome, does not work with the shell
-* *ydotool - used to work with the shell.
+* ydotool - used to work with the shell.
 * * Also needs sudo wich also give password protection to use this program
 * xsel
 * https://github.com/lingtalfi/bashmanager
