@@ -9,11 +9,22 @@ If you wish to read, here is the [Preferace](pre.md)
 ## Requirements - Or what am I running
 I am currently running (on this old box):
 * Linux Mint 18 Sarah
-* 4.4.0-21-generic
+* Linux 4.4.0-21-generic
 * Bash 4.3.48(1)-release
 * coreutils	8.25-2ubuntu3~16.04
 * xdotool version 3.20150503.1
 * xsel version 1.2.0 by Conrad Parker <conrad@vergenet.net>
+* https://github.com/lingtalfi/bashmanager
+
+## New Requirements - Or more grey hairs
+I have moved to a new system.  Retired the old
+* Ubuntu 24.04 LTS
+* Linux 6.8.0-40-Generic
+* Bash 5.2.21
+* xdotool - Works great with Chrome, does not work with the shell
+* *ydotool - used to work with the shell.
+* * Also needs sudo wich also give password protection to use this program
+* xsel
 * https://github.com/lingtalfi/bashmanager
 
 
